@@ -2,6 +2,7 @@ import random
 
 user_wins = 0
 computer_wins = 0
+draw = 0
 
 options = ["rock","paper","scissors"]
 
@@ -25,10 +26,16 @@ while True:
     elif user == "scissors" and computer == "paper":
         print ("You won!")
         user_wins += 1
+        
+    elif user == computer:
+        print("its a Draw!")
+        draw += 1
+    
     else:
         print("You lost")
         computer_wins += 1
 
 print("You won", user_wins, "times.")
 print("Computer won",computer_wins,"times.")
+print("Match draw",draw,"times.)
 print ("Goodbye!")
