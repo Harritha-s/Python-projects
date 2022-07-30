@@ -1,3 +1,6 @@
+# you can do even more advanced or complex adventures
+
+
 name = input("Type your name: ")
 print("Welcome to jungle",name,"choose your own path to leave this forest and save your life..Get ready for your adventure!")
 
